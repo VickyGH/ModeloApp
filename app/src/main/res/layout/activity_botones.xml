@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b06d5439"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.creaturmac.modeloapp.Botones">
+
+    <TextView
+        android:id="@+id/txtBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Boton1"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <!-- Texto de cambio-->
+    <TextView
+        android:id="@+id/txtCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Texto"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <!-- -->
+    <!-- Contenedor de la ventana relativa-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <!-- dos ventanas que comparten el mismo contenedor de forma horizontal-->
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <!--Boton normal o clasico-->
+                <Button
+                    android:id="@+id/BtnBotonSimple"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/click"></Button>
+
+                <!--Boton de control-->
+                <ToggleButton
+                    android:id="@+id/toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textOff="@string/off"
+                    android:textOn="@string/on"></ToggleButton>
+
+                <!--Boton Switch --> 
+
+                <Switch
+                    android:id="@+id/swit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textOff="@string/off"
+                    android:textOn="@string/on" />
+
+                <!--Boton Normal con Imagen-->
+                <ImageButton
+                    android:id="@+id/imgbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription=""
+                    android:src="@drawable/ic_estrella" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <!--Boton Normal con Imagen-->
+                <Button
+                    android:id="@+id/BtnBotonMasImagen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_estrella"
+                    android:drawablePadding="50dp"
+                    android:text="@string/click"/>
+
+                <!--Boton ToggleButton personalizado -->
+                <ToggleButton
+                    android:id="@+id/BtnPersonalizado"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="#657643"
+                    android:textOff="@string/off"
+                    android:textOn="@string/on" />
+
+                <!--Boton ImageButton sin borde -->
+                <ImageButton
+                    android:id="@+id/BtnSinBorde"
+                    style="?android:borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/click"
+                    android:src="@drawable/ic_good" />
+
+                <LinearLayout
+                    android:id="@+id/BarraBtnSinBorde"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000"
+                    android:divider="?android:dividerVertical"
+                    android:dividerPadding="6dp"
+                    android:orientation="horizontal"
+                    android:showDividers="middle" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Barra de botones-->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/BarraBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle">
+
+        <Button android:id="@+id/BtnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/on"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_good"/>
+
+        <Button android:id="@+id/BtnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/off"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_bad"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_estrella"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:fabSize="normal"
+        app:borderWidth="0dp" />
+
+</LinearLayout>
