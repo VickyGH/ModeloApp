@@ -43,17 +43,23 @@ public class MainActivity extends AppCompatActivity {
         boton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent open = new Intent(MainActivity.this, Botones.class);
+                Intent open = new Intent(MainActivity.this, txt_img.class);
                 startActivity(open);
             }
         });
         boton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent open = new Intent(MainActivity.this, Botones.class);
+                Intent open = new Intent(MainActivity.this, CheckRadio.class);
                 startActivity(open);
             }
         });
-
+        boton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity.this, ListaTabla.class);
+                startActivity(open);
+            }
+        });
     }
 }

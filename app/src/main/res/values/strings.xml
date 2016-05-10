@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">ModeloApp</string>
     <string name="Boton1">Botones</string>
-    <string name="Boton2">Boton 2</string>
-    <string name="Boton3">Boton 3</string>
-    <string name="Boton4">Boton 4</string>
+    <string name="Boton2">Texto e Imagenes</string>
+    <string name="Boton3">Checkbox y Radiobutton</string>
+    <string name="Boton4">Listas y Tablas</string>
     <string name="Boton5">Boton 5</string>
     <string name="Boton6">Boton 6</string>
 
@@ -11,4 +11,15 @@
 
     <string name="on">Encendido</string>
     <string name="off">Apagado</string>
+
+    <string name="texto">Esto es un texto :)</string>
+
+    <string name="check">CheckBox</string>
+    <string name="radio">RadioButton</string>
+
+    <string name="listaD">Listas desplegables (Spinner)</string>
+    <string name="lista">Listas (ListView)</string>
+    <string name="listaO">Listas Optimizadas (ViewHolder)</string>
+    <string name="tabla">Tablas</string>
+    <string name="recyclerView">RecyclerView</string>
 </resources>

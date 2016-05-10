@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Botones"></activity>
+        <activity android:name=".Botones" />
+        <activity android:name=".txt_img" />
+        <activity android:name=".CheckRadio" />
+        <activity android:name=".Listas" />
+        <activity android:name=".ListaTabla" />
+        <activity android:name=".ListaView" />
+        <activity android:name=".ListaOpt" />
+        <activity android:name=".Tablas" />
+        <activity android:name=".RecyclerView"></activity>
     </application>
 
 </manifest>
