@@ -3,7 +3,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9372dc"
+    android:background="@color/purpura"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/listaO"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="35dp" />
 
     <LinearLayout

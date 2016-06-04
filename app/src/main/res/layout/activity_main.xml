@@ -16,7 +16,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:textSize="40dp"
-        android:textColor="#000" />
+        android:textColor="@color/negro" />
 
     <!-- Reloj -->
     <TextClock
@@ -76,21 +76,6 @@
                     android:layout_marginLeft="15dp"
                     android:fontFamily="sans-serif-light">
                 </Button>
-
-            </LinearLayout>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="0dip"
-            android:layout_height="fill_parent"
-            android:layout_weight="0.5">
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:orientation="vertical">
-
                 <Button
                     android:id="@+id/boton4"
                     android:text="@string/Boton4"
@@ -109,6 +94,19 @@
                     android:layout_marginLeft="15dp"
                     android:fontFamily="sans-serif-light">
                 </Button>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
                 <Button
                     android:id="@+id/boton6"
                     android:text="@string/Boton6"
@@ -118,7 +116,24 @@
                     android:layout_marginLeft="15dp"
                     android:fontFamily="sans-serif-light">
                 </Button>
-
+                <Button
+                    android:id="@+id/boton7"
+                    android:text="@string/Boton7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-light">
+                </Button>
+                <Button
+                    android:id="@+id/boton8"
+                    android:text="@string/Boton8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-light">
+                </Button>
             </LinearLayout>
 
         </RelativeLayout>

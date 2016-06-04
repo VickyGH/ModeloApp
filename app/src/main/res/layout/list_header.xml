@@ -9,7 +9,7 @@
         android:layout_height="40dp"
         android:text="CABECERA"
         android:textStyle="bold"
-        android:background="#ff0093ff"
+        android:background="@color/azulClaro"
         android:gravity="center" />
 
 </LinearLayout>

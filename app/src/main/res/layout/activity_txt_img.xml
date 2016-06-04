@@ -33,7 +33,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/Boton2"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="40dp" />
 
     <!-- Texto de cambio-->
@@ -136,7 +136,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/texto"
-                    android:background="#8BAC57"
+                    android:background="@color/verdeClaro"
                     android:typeface="monospace"
                     android:textSize="15dp"/>
 

@@ -3,4 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="diez">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="titulo">40dp</dimen>
+    <dimen name="veinte">20dp</dimen>
 </resources>

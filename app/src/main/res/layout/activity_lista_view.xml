@@ -3,7 +3,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9bba76"
+    android:background="@color/rojoOpaco"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/lista"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="40dp" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif"
         android:text="Selecciona una opcion"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="18dp" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

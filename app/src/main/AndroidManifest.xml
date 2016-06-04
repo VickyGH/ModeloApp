@@ -23,7 +23,16 @@
         <activity android:name=".ListaView" />
         <activity android:name=".ListaOpt" />
         <activity android:name=".Tablas" />
-        <activity android:name=".RecyclerView"></activity>
+        <activity android:name=".CardView" />
+        <activity android:name=".ControlPersonal" />
+        <activity android:name=".ControlPersonal1" />
+        <activity android:name=".ControlPersonal2" />
+        <activity android:name=".ControlPersonal3" />
+        <activity android:name=".Tabs" />
+        <activity android:name=".Fragments" />
+        <activity android:name=".fragment_listado" />
+        <activity android:name=".fragment_detalle" />
+        <activity android:name=".detalle"></activity>
     </application>
 
 </manifest>

@@ -4,8 +4,12 @@
     <string name="Boton2">Texto e Imagenes</string>
     <string name="Boton3">Checkbox y Radiobutton</string>
     <string name="Boton4">Listas y Tablas</string>
-    <string name="Boton5">Boton 5</string>
-    <string name="Boton6">Boton 6</string>
+    <string name="Boton5">Card View</string>
+    <string name="Boton6">Controles Personalizados</string>
+    <string name="Boton7">Pestañas</string>
+    <string name="Boton8">Fragments</string>
+    <string name="Boton9">Pestañas</string>
+    <string name="Boton10">Pestañas</string>
 
     <string name="click">Click</string>
 
@@ -21,5 +25,16 @@
     <string name="lista">Listas (ListView)</string>
     <string name="listaO">Listas Optimizadas (ViewHolder)</string>
     <string name="tabla">Tablas</string>
-    <string name="recyclerView">RecyclerView</string>
+
+    <string name="tarjeta1">Tarjeta 1</string>
+    <string name="tarjeta2">Rio de Janeiro</string>
+
+    <string name="controlP1">Extendiendo la funcionalidad de un control ya existente.</string>
+    <string name="controlP2">Combinando varios controles para formar otro más complejo.</string>
+    <string name="controlP3">Diseñando desde cero un nuevo control.</string>
+
+    <string name="login">Inicio de Sesion</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Contraseña</string>
+
 </resources>

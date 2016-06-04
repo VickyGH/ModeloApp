@@ -23,7 +23,6 @@ public class ListaTabla extends AppCompatActivity {
         lista2 = (Button)findViewById(R.id.Btn2);
         lista3 = (Button)findViewById(R.id.Btn3);
         tabla1 = (Button)findViewById(R.id.Btn4);
-        tabla2 = (Button)findViewById(R.id.Btn5);
 
         //Click
         lista1.setOnClickListener(new View.OnClickListener() {
@@ -55,14 +54,6 @@ public class ListaTabla extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent open = new Intent(ListaTabla.this, Tablas.class);
-                startActivity(open);
-            }
-        });
-        //-- RecicleView-- --
-        tabla2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent open = new Intent(ListaTabla.this, RecyclerView.class);
                 startActivity(open);
             }
         });

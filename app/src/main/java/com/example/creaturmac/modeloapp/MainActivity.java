@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private Button boton4;
     private Button boton5;
     private Button boton6;
+    private Button boton7;
+    private Button boton8;
 
 
     @Override
@@ -31,11 +33,14 @@ public class MainActivity extends AppCompatActivity {
         boton4 = (Button)findViewById(R.id.boton4);
         boton5 = (Button)findViewById(R.id.boton5);
         boton6 = (Button)findViewById(R.id.boton6);
+        boton7 = (Button)findViewById(R.id.boton7);
+        boton8 = (Button)findViewById(R.id.boton8);
 
         //--Abrir otras ventanas-- --//
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Intent open = new Intent(MainActivity.this, ControlPersonal.class);
                 Intent open = new Intent(MainActivity.this, Botones.class);
                 startActivity(open);
             }
@@ -54,10 +59,39 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(open);
             }
         });
+
         boton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent open = new Intent(MainActivity.this, ListaTabla.class);
+                startActivity(open);
+            }
+        });
+        boton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity.this, CardView.class);
+                startActivity(open);
+            }
+        });
+        boton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity.this, ControlPersonal.class);
+                startActivity(open);
+            }
+        });
+        boton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity.this, Tabs.class);
+                startActivity(open);
+            }
+        });
+        boton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity.this, Fragments.class);
                 startActivity(open);
             }
         });

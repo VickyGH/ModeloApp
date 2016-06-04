@@ -4,7 +4,7 @@
     android:id="@+id/linearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b06d5439"
+    android:background="@color/cafeOpaco"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/Boton1"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="40dp" />
 
     <!-- Texto de cambio-->
@@ -32,7 +32,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Texto"
-        android:textColor="#000"
+        android:textColor="@color/negro"
         android:textSize="15dp" />
 
     <!-- -->
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:background="#657643"
+                    android:background="@color/verdeM"
                     android:textOff="@string/off"
                     android:textOn="@string/on" />
 
@@ -154,7 +154,7 @@
                     android:id="@+id/BarraBtnSinBorde"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#000"
+                    android:background="@color/negro"
                     android:divider="?android:dividerVertical"
                     android:dividerPadding="6dp"
                     android:orientation="horizontal"
